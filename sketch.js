@@ -10,7 +10,7 @@ function setup() {
     asteroidArray = createAsteroid(40, round(random(30,70)), 5);
 }
 function draw() {
-    background(120,120,120);
+    background(120,120,120,45);
 
     if (!gameOver){
 	drawBullet();
